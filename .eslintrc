@@ -1,0 +1,19 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-empty": [2, { "allowEmptyCatch": true }],
+        "no-inner-declarations": [0, "both"],
+        "semi": "off",
+        "quotes": [
+            "error", "double"
+        ]
+    }
+}
